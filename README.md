@@ -1,5 +1,10 @@
 # Sample project for Appium + Spring Boot + Cucumber
 
+First install APPIUM SERVER and set the IP and PORT to match the same in the property:
+ ```
+appium.server.url=http://127.0.0.1:4723 
+```
+
 ### How to get your device name:
 
  In a terminal run:

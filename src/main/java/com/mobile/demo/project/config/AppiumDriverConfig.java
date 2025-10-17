@@ -50,7 +50,8 @@ public class AppiumDriverConfig {
         options.setAutoGrantPermissions(true);
         options.setNoReset(false);
 
-        URL serverUrl = URI.create(appiumServerUrl + "/wd/hub").toURL();
+        //URL serverUrl = URI.create(appiumServerUrl + "/wd/hub").toURL();
+        URL serverUrl = URI.create(appiumServerUrl).toURL();
         return new AndroidDriver(serverUrl, options);
     }
 }
